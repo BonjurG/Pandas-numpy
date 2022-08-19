@@ -8,4 +8,12 @@ import pandas as pd
 df = pd.read_csv('users.csv', sep=';')
 df = df[['username', 'name', 'sex']]
 df.to_json('out_2.json')
-print(df.keys())
+
+# NEW RESULT
+# pd.read_csv(url, sep=';', usecols=['username', 'name', 'sex']).to_json('json_example.json', orient='columns')
+
+# ONE MORE
+# pd.read_csv('users.csv', sep=';', usecols=['username', 'name', 'sex']).to_json('users.json')
+
+
+# print(df.keys())
