@@ -1,6 +1,20 @@
-###  Решаю задачки с помощью библиотек pandas/numpy
+###  Решаю задачи с помощью библиотек pandas/numpy в jupyter notebook 
 
-**В задачках затрагиваются следующие типы данных:**
+**В задачах затрагиваются следующие форматы данных:**
 
- - `.csv`
- - `.json`
+ - Текстовые
+ `.csv`
+ `.json`
+ `.html`
+ `.xml`
+ 
+ - Бинарные
+ `.HDF5`
+ `.pickle`
+ 
+ 
+**При работе в PyCharm необходимо выполнить следующую установку пакетов:**
+- !pip install lxml
+- !pip install html5lib
+- !pip install beautifulsoup4
+- !pip install tables
