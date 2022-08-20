@@ -13,7 +13,7 @@
  `.pickle`
  
  
-**При работе в PyCharm необходимо выполнить следующую установку пакетов:**
+**При работе в PyCharm необходимо выполнить следующую пакетов:**
 - !pip install lxml
 - !pip install html5lib
 - !pip install beautifulsoup4
